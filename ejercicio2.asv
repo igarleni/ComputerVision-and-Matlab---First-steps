@@ -35,7 +35,6 @@ syntheticB(:,:,2) = imG;
 syntheticB(:,:,3) = flipud(imB);
 figure, subplot(1,4,1),imshow(synthetic),title('Original'),
     subplot(1,4,2),imshow(syntheticRB),title ('Red<-->Blue'),
-    subplot(1,4,3),imshow(syntheticG),title ('Green Flip X'),
-    subplot(1,4,4),imshow(syntheticB),title ('Blue Flip Y')
+    subplot(1,4,3),imshow(syntheticG),title ('Green Flip'),
 
 
